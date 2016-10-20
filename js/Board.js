@@ -2,7 +2,7 @@ function checkPromptValue(text) {
     var promptValue = prompt(text)
     while (promptValue === "") {
         alert("Field is empty, please try again");
-        var promptValue = prompt(text)
+        promptValue = prompt(text)
     }
     if (!promptValue) {
         throw null;
